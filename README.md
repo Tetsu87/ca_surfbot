@@ -1,6 +1,9 @@
 # ca_surfbot
-<!-- ![Huntington Beach Surfing Image](Images/jeremy-bishop-j0UK3ViOsos-unsplash.jpg) -->
-<img src="Images/jeremy-bishop-j0UK3ViOsos-unsplash.jpg" alt="drawing" width="600"/>
+
+<p align="center">
+  <img src="Images/jeremy-bishop-j0UK3ViOsos-unsplash.jpg" alt="drawing" width="600"/>
+</p>
+
 ## Description
 This app allows you to get information on major surfing spots in California by sending text messages on your mobile phone*. By sending a text message, you can start a conversation, and by following the directions, you can get wave information from Surfline, a major surfing information website, for the surf spot you want to visit.
 
