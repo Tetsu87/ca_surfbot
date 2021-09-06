@@ -21,4 +21,7 @@ In this app, we use AWS Lambda and the services listed below.
 AWS Lambda -- Standalone microservices that are triggered by events
 AWS Simple Notification Service (SNS) -- Messaging service between microservices
 AWS Pinpoint
-test
+
+<p align="center">
+  <img src="Images/weatherbot2.jpg" alt="drawing" width="600"/>
+</p>
