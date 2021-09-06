@@ -23,5 +23,5 @@ AWS Simple Notification Service (SNS) -- Messaging service between microservices
 AWS Pinpoint
 
 <p align="center">
-  <img src="Images/weatherbot2.jpg" alt="drawing" width="600"/>
+  <img src="Images/weatherbot2.jpg" alt="drawing" width="1000"/>
 </p>
