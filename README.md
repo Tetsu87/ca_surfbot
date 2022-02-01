@@ -15,6 +15,10 @@ Phone number: 833-709-2033
 
 Using SMS, users can send a text message to ca_surfbot and it will reply with the surf information of the desired location for that day.
 
+
+https://user-images.githubusercontent.com/88815405/151932940-034af625-867d-40e1-aeae-be8a6f561503.mp4
+
+
 ## CA_surfbot Architecture
 
 In this app, we use AWS Lambda and the services listed below.
