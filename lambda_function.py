@@ -24,7 +24,7 @@ def get_conditions(spot_id):
                  int(forecasts["data"]["conditions"][0]["pm"]["minHeight"])) / 2
         pm_rat = forecasts["data"]["conditions"][0]["pm"]["rating"]
         
-        return f"Condition is going to be AM {am_rat} {am_avg}ft and PM: {pm_rat} {pm_avg}.\n\n{observation}"
+        return f"Condition is going to be AM {am_rat} {am_avg}ft and PM: {pm_rat} {pm_avg}ft.\n\n{observation}"
 
 
 def lambda_handler(event, context):
@@ -32,12 +32,12 @@ def lambda_handler(event, context):
     number = message['originationNumber']
     user_input = message['messageBody']
     
-    d = {"1": "5842041f4e65fad6a7708827" ,"2": "5842041f4e65fad6a770888a", "3": "5842041f4e65fad6a7708828", "4": "58349c1fe411dc743a5d52ad", "5": "584204204e65fad6a7709435"}
+    d = {"1": "5842041f4e65fad6a7708827" ,"2": "5842041f4e65fad6a770888a", "3": "5842041f4e65fad6a7708828", "4": "584204214e65fad6a7709b9f", "5": "584204204e65fad6a7709435"}
     if user_input in d.keys(): 
         bot_output = get_conditions(d[user_input])
     else:
         bot_output = (
-        "Hi, I can help to show you the surf conditions for tomorrow."
+        "Hi, I can help to show you the current surf conditions."
         "Which point would you want to know?\n"
         "Reply:\n"
         "1: Huntington\n"
