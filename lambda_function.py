@@ -37,15 +37,15 @@ def lambda_handler(event, context):
         bot_output = get_conditions(d[user_input])
     else:
         bot_output = (
-        "Hi, I can help to show you the current surf conditions."
-        "Which point would you want to know?\n"
-        "Reply:\n"
+        "Hi, I'll let you know the current surf conditions.\n"
+        "Choose the point by entering the NUMBER.\n"
         "1: Huntington\n"
         "2: Trestles\n"
         "3: Ventura\n"
         "4: Malibu\n"
         "5: Oceanside\n"
         )
+        
         
 
 
